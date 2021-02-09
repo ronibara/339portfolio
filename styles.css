@@ -19,6 +19,53 @@ section {
 
 }*/
 
+.right {
+    font-size: 1.68vw;
+
+    font-family: roundRohan;
+    font-weight: bold;
+    text-decoration: none;
+    color: #48494B;
+}
+
+nav {
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-left: 12.25%;
+}
+
+nav ul li {
+  display: inline;
+  text-decoration: none;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+
+footer {
+  margin-bottom: 5%;
+  text-align: center;
+}
+
+footer ul {
+  margin: 0 auto;
+  margin-left: 43.5%;
+}
+ 
+footer ul li {
+  text-decoration: none;
+  display: inline;
+  padding: 30px;
+} 
+
+footer ul li a img {
+  width: 40px;
+}
+
+footer ul li a::hover {
+/*  padding-bottom: 5px;
+*/}
+
 .transparent {
     background:none transparent;
   }
@@ -58,12 +105,29 @@ section {
   }
   
   .yayaya {
-    margin-top: 30px;
+/*    margin-top: 30px;
+*/    
+/*    margin-top: -2%;
     margin-left: 14.22%;
     margin-right: 14.22%;
     column-count: 2;
     column-gap: 7%;
+    column-width: 32.3%;*/
+    margin-top: -2%;
+    margin-left: 11%;
+    margin-right: 11%;
+    column-count: 2;
+    column-gap: 10%;
     column-width: 32.3%;
+  }
+
+  @media screen and (max-width: 720px) {
+    .yayaya {
+      column-count: 1;
+    }
+    footer ul {
+      margin-left: 35%;
+    }
   }
   
   .row {
@@ -154,7 +218,7 @@ section {
   }
   
   p.thick5{
-    font-size: 3.2rem;
+    font-size: 3.6vw;
     margin-bottom: 125px;
     font-weight: 550;
     line-height: large;
@@ -165,12 +229,12 @@ section {
   
   /* NAVBAR */
   #last {
-    position: relative;
-  /*  right: -187px;
-  */  
-    right: -3%;
+    padding-right: 29%;
     font-weight: bold;
-    font-size: 3rem;
+    color: #000000;
+    text-decoration: none;
+    font-size: 3.35vw;
+
     font-family: roundRohan;
       -webkit-transition: -webkit-transform 1s ease-in-out;
             transition:         transform 1s ease-in-out;
