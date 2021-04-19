@@ -1,4 +1,13 @@
 <!-- FIX THESE ERRORS:
+- Holy Crap! This is amazing.
+- Your logo is phenomenal and I love the animation on your page.
+- The only change I would make would be to change the title spacing, it looks a little strange.
+- I think the highlight section needs more spacing in between items. Maybe you could put the information in a box.
+- I want to see more fonts! It is so good but needs more contrast
+- "Portfolio Template for Coders" is not displaying properly.
+
+- put css into a css folder
+
 - maybe make it look just like Dribbble (phone tablet etc)
 - big text and justify -- finalize
 - no branding? like slack? like spotify?
@@ -26,7 +35,7 @@
  -->        
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!-- <link rel="stylesheet" href="html5reset.css"> -->
-        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="css/style.css">
         
         <!-- Add icon library -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
@@ -67,11 +76,20 @@
       </div> -->
       <main id="maincontent">
         <div class="splash">
-          <h1 class="problem">Started from the problem now we’re here.</h1>
-          <p class="chill">Rohan Barad | Sophomore @ UofM</p>
+          <div class="desktop_hello">
+            <h1>Hello!</h1>
+          </div>
+          <div class="desktop_right">
+            <h1 class="problem">Started from the problem now we’re here.</h1>
+            <p class="chill">Rohan Barad | Sophomore @ UofM</p>
+          </div>
         </div>
-        <h1>Emoji Dump!</h1>
+        <h1 class="hide_for_desktop">Emoji Dump!</h1>
         <div class="emoji_dump">
+          <div class="emoji0">
+            <h1>Emoji Dump!</h1>
+          </div>
+          <!-- <div class="emoji_right_desktop"> -->
           <p class="emoji1">🙏</p>
           <p class="emojieone" >Here’s my favorite. I’m thankful for a lot that my friends do.</p>
           <p class="emoji2">❌</p>
@@ -90,9 +108,13 @@
           <p class="emojieight">I also heavily identify with my DSM or “16 Personalities” classification of ENFP-T or <i>Campaigner</i></p>
           <!-- <p class="emoji9">⭐</p>
           <p class="emojinine">I've been doing "Hero" workouts, inspired by anime hit <i>One Punch Man</i>, every day for the past 6 months.</p> -->
+          <!-- </div> -->
         </div>
-        <h1>Highlights</h1>
+        <h1 class="hide_for_desktop">Highlights</h1>
         <div class="projects">
+          <div class="item0">
+            <h1>Highlights</h1>
+          </div>
           <div class="item1">
             <p class="chill">01-TASK MANAGEMENT</p>
             <p class="tag_empathize">Empathize</p><p class="tag_ideate">Ideate</p><p class="tag_define">Define</p><p class="tag_prototype">Prototype</p><p class="tag_test">Test</p>
@@ -115,8 +137,11 @@
             <br/>
           </div>
         </div>
-        <h1>In Progress</h1>
+        <h1 class="hide_for_desktop">In Progress</h1>
         <div class="progress">
+          <div class="itemAA">
+            <h1>In Progress</h1>
+          </div>
           <div class="itemA">
             <h2>proDHDivity</h2>
             <p>Reducing day-to-day ADHD symptoms in college students.</p>
@@ -136,9 +161,13 @@
           </div>
         </div>
         <div class="coffee">
-          <h1>Coffee</h1>
-          <p id="sixteen">I'm really thankful that you took the time to scroll here. Please don't hesitate to reach out! The only thing I love more than talking is black coffee.</p>
-          <p class="chill">2483454328 | ronibara@umich.edu</p>
+          <div class="coffee1">
+            <h1>Coffee</h1>
+          </div> 
+          <div class="coffee2">
+            <p id="sixteen">I'm really thankful that you took the time to scroll here. Please don't hesitate to reach out! The only thing I love more than talking is black coffee.</p>
+            <p class="chill">2483454328 | ronibara@umich.edu</p>
+          </div>
         </div>
       </main>
         <!-- Footer -->
